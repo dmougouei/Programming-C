@@ -15,12 +15,10 @@
 #include <string.h>
 #include <math.h>
 
-// -----------------------------------------------------------------------
 void arraySum (int *x, int *y, int *z, int size){
-    for (int i=0; i<size; i++){
-        z[i] = x[i] + y[i];
-    }
+    
 }
+
 // -----------------------------------------------------------------------
 int lecture2_run(int argc, const char * argv[]) {
     // types
@@ -57,13 +55,6 @@ int lecture2_run(int argc, const char * argv[]) {
         printf("\n");
     }
     
-    // Array Sum ------------------------------------------------------------
-    int z [5];
-    arraySum(x, y, z, 5);
-    for ( int i = 0; i < 5; i++ ) {
-       printf( "z[\%d] : %d\n", i, z[i]);
-    }
-
     // C-String -------------------------------------------------------------
     char name[16] = "Davoud";
     char family[] = "Mougouei";

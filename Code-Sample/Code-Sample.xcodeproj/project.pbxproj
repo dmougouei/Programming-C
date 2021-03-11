@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		17B1F09C25F9882400699B6A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 17B1F09B25F9882400699B6A /* main.c */; };
+		17B1F0A825F989F800699B6A /* Lecture2.c in Sources */ = {isa = PBXBuildFile; fileRef = 17B1F0A525F989F800699B6A /* Lecture2.c */; };
+		17B1F0A925F989F800699B6A /* Lecture1.c in Sources */ = {isa = PBXBuildFile; fileRef = 17B1F0A625F989F800699B6A /* Lecture1.c */; };
+		17B1F0B425F98C8B00699B6A /* Tute2.c in Sources */ = {isa = PBXBuildFile; fileRef = 17B1F0B325F98C8B00699B6A /* Tute2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		17B1F09825F9882400699B6A /* Code-Sample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Code-Sample"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B1F09B25F9882400699B6A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		17B1F0A425F989F800699B6A /* Lecture2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lecture2.h; sourceTree = "<group>"; };
+		17B1F0A525F989F800699B6A /* Lecture2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Lecture2.c; sourceTree = "<group>"; };
+		17B1F0A625F989F800699B6A /* Lecture1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Lecture1.c; sourceTree = "<group>"; };
+		17B1F0A725F989F800699B6A /* Lecture1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lecture1.h; sourceTree = "<group>"; };
+		17B1F0B225F98C8B00699B6A /* Tute2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tute2.h; sourceTree = "<group>"; };
+		17B1F0B325F98C8B00699B6A /* Tute2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Tute2.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,13 @@
 		17B1F09A25F9882400699B6A /* Code-Sample */ = {
 			isa = PBXGroup;
 			children = (
+				17B1F0A625F989F800699B6A /* Lecture1.c */,
+				17B1F0A725F989F800699B6A /* Lecture1.h */,
+				17B1F0A525F989F800699B6A /* Lecture2.c */,
+				17B1F0A425F989F800699B6A /* Lecture2.h */,
 				17B1F09B25F9882400699B6A /* main.c */,
+				17B1F0B225F98C8B00699B6A /* Tute2.h */,
+				17B1F0B325F98C8B00699B6A /* Tute2.c */,
 			);
 			path = "Code-Sample";
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B1F0B425F98C8B00699B6A /* Tute2.c in Sources */,
 				17B1F09C25F9882400699B6A /* main.c in Sources */,
+				17B1F0A825F989F800699B6A /* Lecture2.c in Sources */,
+				17B1F0A925F989F800699B6A /* Lecture1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
