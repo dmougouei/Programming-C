@@ -15,10 +15,6 @@
 #include <string.h>
 #include <math.h>
 
-void arraySum (int *x, int *y, int *z, int size){
-    
-}
-
 // -----------------------------------------------------------------------
 int lecture2_run(int argc, const char * argv[]) {
     // types

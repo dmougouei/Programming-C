@@ -19,7 +19,7 @@ int tute2_run(void);
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
-    lecture2_run();
-    //tute2_run();
+    //lecture2_run();
+    tute2_run();
     return 0;
 }

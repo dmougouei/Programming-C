@@ -26,9 +26,9 @@ int tute2_run(void) {
     int y[5] = { 4, 7, 2, 6, 5 };
     int z [5];
     arraySum(x, y, z, 5);
-//    for ( int i = 0; i < 5; i++ ) {
-//       printf( "z[\%d] : %d\n", i, z[i]);
-//    }
+    for ( int i = 0; i < 5; i++ ) {
+       printf( "z[\%d] : %d\n", i, z[i]);
+    }
     return 0;
 }
 
