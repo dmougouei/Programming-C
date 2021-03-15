@@ -30,7 +30,7 @@ int main(int argc, const char * argv[]) {
     lecture3_run();
     return 0;
 }
-void someFunction(void){// define, implementing
+void someFunction(void){// definition, implementation
     printf("someFunctionTest\n");
 }
 
