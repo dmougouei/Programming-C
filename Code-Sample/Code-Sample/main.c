@@ -11,7 +11,10 @@
 #include "Lecture2.h"
 #include "Lecture3.h"
 
-#include "Tute2.h"
+
+#include "Tutorial2.h"
+#include "Tutorial4.h"
+
 
 #include "Exercise1.h"
 
@@ -19,18 +22,15 @@ int lecture1_run(void);
 int lecture2_run(void);
 int lecture3_run(void);
 
-void tute2_run(void);
+int Tutorial2_run(void);
+int Tutorial4_run(void);
 
-int exercise1_run(int);
+int Exercise1_run(int);
+int Exercise2_run(void);
 
-void someFunction(void);// prototype, declaration
 
 int main(int argc, const char * argv[]) {
-    exercise1_run(56);
-    lecture3_run();
+    Exercise2_run();
+    Tutorial4_run();
     return 0;
 }
-void someFunction(void){// definition, implementation
-    printf("someFunctionTest\n");
-}
-

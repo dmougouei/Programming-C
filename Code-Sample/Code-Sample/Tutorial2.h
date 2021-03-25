@@ -1,5 +1,5 @@
 //
-//  Tute2.h
+//  Tutorial2.h
 //  Code-Sample
 //
 //  Created by Davoud on 11/3/21.

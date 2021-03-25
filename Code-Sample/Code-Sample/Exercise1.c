@@ -46,7 +46,7 @@ void checkPrime(int number){
         printf("Invalid input\n");
     }
 }
-int exercise1_run (int number){
+int Exercise1_run (int number){
     checkPrime(number);
     return 0;
 }

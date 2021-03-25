@@ -1,10 +1,9 @@
 //
-//  Tute2.c
+//  Tutorial2.c
 //  Code-Sample
 //
 //  Created by Davoud on 11/3/21.
 //
-
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdio.h>
@@ -13,7 +12,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <math.h>
-#include "Tute2.h"
+#include "Tutorial2.h"
 // -----------------------------------------------------------------------
 void arraySum (int *x, int *y, int *z, int size){
     for (int i=0; i<size; i++){
