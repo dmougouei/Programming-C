@@ -1,0 +1,4 @@
+----------------------------------------
+Operations: Dot Product and Maximum
+----------------------------------------
+Dot Product: 3.06, Maximum: 1.03
