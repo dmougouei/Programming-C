@@ -20,7 +20,7 @@
 #include "Exercise2.h"
 #include "Exercise3.h"
 
-//#include "Assignment1.h"
+#include "Assignment1.h"
 
 
 int lecture1_run(void);
@@ -36,13 +36,13 @@ int Exercise1_run(int);
 int Exercise2_run(void);
 int Exercise3_run(void);
 
-//int Assignment1_run(void);
+int Assignment1_run(void);
 
 
 
 int main(int argc, const char * argv[]) {
-    Exercise3_run();
-    //Assignment1_run();
+    //Exercise3_run();
+    Assignment1_run();
     //Tutorial5_run();
     return 0;
 }

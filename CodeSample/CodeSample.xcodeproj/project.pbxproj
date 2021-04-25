@@ -17,6 +17,7 @@
 		170CAFDD2610418000545703 /* Tutorial4.c in Sources */ = {isa = PBXBuildFile; fileRef = 170CAFCF2610418000545703 /* Tutorial4.c */; };
 		170CAFDE2610418000545703 /* Lecture1.c in Sources */ = {isa = PBXBuildFile; fileRef = 170CAFD32610418000545703 /* Lecture1.c */; };
 		170CAFE22610420B00545703 /* Tutorial5.c in Sources */ = {isa = PBXBuildFile; fileRef = 170CAFE12610420B00545703 /* Tutorial5.c */; };
+		170CAFE7261E962000545703 /* Assignment1.c in Sources */ = {isa = PBXBuildFile; fileRef = 170CAFE5261E962000545703 /* Assignment1.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,10 @@
 		170CAFD42610418000545703 /* Tutorial2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial2.h; sourceTree = "<group>"; };
 		170CAFE02610420B00545703 /* Tutorial5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tutorial5.h; sourceTree = "<group>"; };
 		170CAFE12610420B00545703 /* Tutorial5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Tutorial5.c; sourceTree = "<group>"; };
+		170CAFE5261E962000545703 /* Assignment1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Assignment1.c; sourceTree = "<group>"; };
+		170CAFE6261E962000545703 /* Assignment1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment1.h; sourceTree = "<group>"; };
+		170CAFE9261E970E00545703 /* matrix2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = matrix2.txt; sourceTree = "<group>"; };
+		170CAFEA261E970E00545703 /* matrix1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = matrix1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +92,10 @@
 		170CAF8F260DB5B200545703 /* CodeSample */ = {
 			isa = PBXGroup;
 			children = (
+				170CAFEA261E970E00545703 /* matrix1.txt */,
+				170CAFE9261E970E00545703 /* matrix2.txt */,
+				170CAFE5261E962000545703 /* Assignment1.c */,
+				170CAFE6261E962000545703 /* Assignment1.h */,
 				170CAFCD2610418000545703 /* Exercise1.c */,
 				170CAFC52610418000545703 /* Exercise1.h */,
 				170CAFCB2610418000545703 /* Exercise2.c */,
@@ -172,6 +181,7 @@
 				170CAFDE2610418000545703 /* Lecture1.c in Sources */,
 				170CAFD92610418000545703 /* Lecture2.c in Sources */,
 				170CAF91260DB5B200545703 /* main.c in Sources */,
+				170CAFE7261E962000545703 /* Assignment1.c in Sources */,
 				170CAFDC2610418000545703 /* Lecture3.c in Sources */,
 				170CAFD62610418000545703 /* Exercise3.c in Sources */,
 				170CAFDB2610418000545703 /* Exercise1.c in Sources */,
