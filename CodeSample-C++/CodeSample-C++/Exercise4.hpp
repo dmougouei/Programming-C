@@ -1,12 +1,12 @@
 //
-//  BookStore.hpp
+//  Exercise4.hpp
 //  CodeSamples
 //
 //  Created by Davoud on 6/5/21.
 //
 
-#ifndef BookStore_hpp
-#define BookStore_hpp
+#ifndef Exercise4_hpp
+#define Exercise4_hpp
 
 #include <stdio.h>
 

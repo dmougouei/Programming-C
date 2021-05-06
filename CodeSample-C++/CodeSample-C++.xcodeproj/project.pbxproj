@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		171C8E962643E39700191E2D /* BookStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 171C8E932643E39600191E2D /* BookStore.cpp */; };
+		171C8E962643E39700191E2D /* Exercise4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 171C8E932643E39600191E2D /* Exercise4.cpp */; };
 		171C8E972643E39700191E2D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 171C8E952643E39600191E2D /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +25,8 @@
 
 /* Begin PBXFileReference section */
 		171C8E872643E33B00191E2D /* CodeSample-C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CodeSample-C++"; sourceTree = BUILT_PRODUCTS_DIR; };
-		171C8E932643E39600191E2D /* BookStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BookStore.cpp; sourceTree = "<group>"; };
-		171C8E942643E39600191E2D /* BookStore.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BookStore.hpp; sourceTree = "<group>"; };
+		171C8E932643E39600191E2D /* Exercise4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exercise4.cpp; sourceTree = "<group>"; };
+		171C8E942643E39600191E2D /* Exercise4.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Exercise4.hpp; sourceTree = "<group>"; };
 		171C8E952643E39600191E2D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,8 +60,8 @@
 		171C8E892643E33B00191E2D /* CodeSample-C++ */ = {
 			isa = PBXGroup;
 			children = (
-				171C8E932643E39600191E2D /* BookStore.cpp */,
-				171C8E942643E39600191E2D /* BookStore.hpp */,
+				171C8E932643E39600191E2D /* Exercise4.cpp */,
+				171C8E942643E39600191E2D /* Exercise4.hpp */,
 				171C8E952643E39600191E2D /* main.cpp */,
 			);
 			path = "CodeSample-C++";
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				171C8E972643E39700191E2D /* main.cpp in Sources */,
-				171C8E962643E39700191E2D /* BookStore.cpp in Sources */,
+				171C8E962643E39700191E2D /* Exercise4.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
