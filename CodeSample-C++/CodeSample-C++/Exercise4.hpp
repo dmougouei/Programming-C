@@ -33,5 +33,4 @@ public:
     int bestSeller(Book* head);
     void secondBestSeller(Book* head);
     void secondBestSeller2(Book* head);
-
 };

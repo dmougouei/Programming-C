@@ -2,6 +2,8 @@
 #include <iostream>
 #include <string>
 #include "Exercise4.hpp"
+#include "Assignment2.hpp"
+
 using namespace std;
 
 // -------------------------------------------------------------------
@@ -20,5 +22,8 @@ int main()
     books.displayList(books.head);
     books.secondBestSeller(books.head);
     books.secondBestSeller2(books.head);
+    
+    PageList list(10);
+
     return 0;
 }
