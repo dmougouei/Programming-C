@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 #include "Exercise4.hpp"
+#include "Exercise5.hpp"
 #include "Assignment2.hpp"
 
 using namespace std;
@@ -9,6 +10,8 @@ using namespace std;
 // -------------------------------------------------------------------
 int main()
 {
+    // Run Exercise 4
+    
     BookList books;
     books.head = NULL;
     books.append(&books.head,"Book1", 10);
@@ -22,8 +25,13 @@ int main()
     books.displayList(books.head);
     books.secondBestSeller(books.head);
     books.secondBestSeller2(books.head);
-    
-    PageList list(10);
-
+    // Run Assignment 2
+    PageList list(100);
+    // Run Exercise 5
+    HanoiTower ht;
+    ht.tower(3, 'A', 'B', 'C');
+    ht.tower(5, 'A', 'B', 'C');
+    ht.tower(-3, 'A', 'B', 'C');
+    ht.tower(0, 'A', 'B', 'C');
     return 0;
 }

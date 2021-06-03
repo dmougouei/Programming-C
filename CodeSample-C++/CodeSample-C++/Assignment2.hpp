@@ -27,7 +27,7 @@ public:
 class PageList{
 public:
     Page* head; // point to the first page
-    void append(int page_number, string content,double visit_frequency);
+    void append(int page_number, string content, double visit_frequency);
     void push(int page_number, string content);
     /* Given a node as next_node, insert a new node before the
      * given node */

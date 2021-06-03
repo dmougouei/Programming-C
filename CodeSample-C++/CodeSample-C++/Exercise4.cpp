@@ -4,7 +4,6 @@
 //
 //  Created by Davoud on 6/5/21.
 //
-
 #include "Exercise4.hpp"
 //insert a new node in front of the list
 #include <iostream>

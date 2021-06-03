@@ -10,7 +10,7 @@
 		171C8E962643E39700191E2D /* Exercise4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 171C8E932643E39600191E2D /* Exercise4.cpp */; };
 		171C8E972643E39700191E2D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 171C8E952643E39600191E2D /* main.cpp */; };
 		171C8E9C2643E52700191E2D /* Assignment2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 171C8E9A2643E52700191E2D /* Assignment2.cpp */; };
-		171C8EA02644AD0F00191E2D /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 171C8E9E2644AD0F00191E2D /* test.cpp */; };
+		1723B8D426698E36008F7CCE /* Exercise5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1723B8D226698E36008F7CCE /* Exercise5.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,8 +32,8 @@
 		171C8E952643E39600191E2D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		171C8E9A2643E52700191E2D /* Assignment2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Assignment2.cpp; sourceTree = "<group>"; };
 		171C8E9B2643E52700191E2D /* Assignment2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Assignment2.hpp; sourceTree = "<group>"; };
-		171C8E9E2644AD0F00191E2D /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
-		171C8E9F2644AD0F00191E2D /* test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = test.hpp; sourceTree = "<group>"; };
+		1723B8D226698E36008F7CCE /* Exercise5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Exercise5.cpp; sourceTree = "<group>"; };
+		1723B8D326698E36008F7CCE /* Exercise5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Exercise5.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +71,8 @@
 				171C8E952643E39600191E2D /* main.cpp */,
 				171C8E9A2643E52700191E2D /* Assignment2.cpp */,
 				171C8E9B2643E52700191E2D /* Assignment2.hpp */,
-				171C8E9E2644AD0F00191E2D /* test.cpp */,
-				171C8E9F2644AD0F00191E2D /* test.hpp */,
+				1723B8D226698E36008F7CCE /* Exercise5.cpp */,
+				1723B8D326698E36008F7CCE /* Exercise5.hpp */,
 			);
 			path = "CodeSample-C++";
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				171C8E9C2643E52700191E2D /* Assignment2.cpp in Sources */,
-				171C8EA02644AD0F00191E2D /* test.cpp in Sources */,
 				171C8E972643E39700191E2D /* main.cpp in Sources */,
 				171C8E962643E39700191E2D /* Exercise4.cpp in Sources */,
+				1723B8D426698E36008F7CCE /* Exercise5.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

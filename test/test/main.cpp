@@ -1,14 +1,28 @@
-//
-//  main.cpp
-//  test
-//
-//  Created by Davoud on 7/5/21.
-//
-
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+void tower(int a, char from, char buf, char to){
+  if (a>0){
+    if(a==1) {
+       cout << "Move disc 1 from " << from<< " to "<< to << "\n";
+       return;
+    }
+    else {
+       tower(a-1, from, to, buf);
+       cout << "Move disc " << a << " from "<< from << " to "<< to << "\n";
+       tower(a-1, buf, from, to);
+    }
+  }
+  else{
+    cout<<"Error" << endl;
+  }
+}
+
+int main()
+{
+     tower(3, 'A', 'B', 'C');
+     tower(5, 'A', 'B', 'C');
+     tower(-3, 'A', 'B', 'C');
+     tower(0, 'A', 'B', 'C');
+     return 0;
 }

@@ -11,3 +11,9 @@
 #include <stdio.h>
 
 #endif /* Exercise5_hpp */
+
+
+using namespace std;
+class HanoiTower{
+    public: void tower(int a, char from, char buf, char to);
+};

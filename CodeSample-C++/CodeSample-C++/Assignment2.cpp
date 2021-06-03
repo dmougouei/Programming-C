@@ -17,13 +17,13 @@ using namespace std;
 /* Given a reference (pointer to pointer) to the head of a
  list and an int, inserts a new node on the front of the
  list. */
-void PageList::append(int page_numnber, string page_content)
+void PageList::append(int page_numnber, string page_content, double frequency)
 {
     Page* new_node = new Page;
     new_node->page_number = page_numnber;
     new_node->page_content = page_content;
     new_node->next = NULL;
-    new_node->visit_frequency = rand() % 100 + 1;
+    new_node->visit_frequency = frequency;
     Page* node = head;
     Page* last = NULL;
     
@@ -157,7 +157,7 @@ PageList::PageList(int pages) noexcept
     /* Start with the empty list */
     head = NULL;
     for (int i=1;i<=pages;i++){
-        append(i, "page" + to_string(i));
+        append(i, "page" + to_string(i),rand() % 100);
     }
     //insertBefore(&head, head->next, 8);
     
